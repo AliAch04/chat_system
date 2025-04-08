@@ -1,5 +1,5 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
-import { account, databases, DATABASE_ID, USERS_COLLECTION_ID } from '../appwrite';
+import { account, databases, DATABASE_ID, USERS_COLLECTION_ID } from '../lib/appwrite';
 import { ID } from 'appwrite';
 
 const AuthContext = createContext();

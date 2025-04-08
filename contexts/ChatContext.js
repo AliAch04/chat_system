@@ -1,5 +1,5 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
-import { databases, realtime, DATABASE_ID, CONVERSATIONS_COLLECTION_ID, MESSAGES_COLLECTION_ID } from '../appwrite';
+import { databases, realtime, DATABASE_ID, CONVERSATIONS_COLLECTION_ID, MESSAGES_COLLECTION_ID } from '../lib/appwrite';
 import { useAuth } from './AuthContext';
 import { Query } from 'appwrite';
 
