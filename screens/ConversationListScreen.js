@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, FlatList, TouchableOpacity, StyleSheet, ActivityIndicator } from 'react-native';
 import { useAuth } from '../contexts/AuthContext';
 import { useChat } from '../contexts/ChatContext';
-import { databases, DATABASE_ID, USERS_COLLECTION_ID } from '../appwrite';
+import { databases, DATABASE_ID, USERS_COLLECTION_ID } from '../lib/appwrite';
 import { Query } from 'appwrite';
 import { Ionicons } from '@expo/vector-icons';
 
